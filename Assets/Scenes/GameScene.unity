@@ -339,7 +339,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -363,45 +363,27 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1622969565 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2649386413925735541, guid: c60f698b369842b4db27396e489386c3, type: 3}
-  m_PrefabInstance: {fileID: 2649386415530873000}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1622969566 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2649386413925735542, guid: c60f698b369842b4db27396e489386c3, type: 3}
   m_PrefabInstance: {fileID: 2649386415530873000}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1622969570
+--- !u!114 &1622969570 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1622969565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bcb14120830b3cd419e72544944bf49f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  regenerate: {fileID: 1811962990}
---- !u!114 &1811962990 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2159049276610343511, guid: c60f698b369842b4db27396e489386c3, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1622969570, guid: c60f698b369842b4db27396e489386c3, type: 3}
   m_PrefabInstance: {fileID: 2649386415530873000}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Script: {fileID: 11500000, guid: bcb14120830b3cd419e72544944bf49f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2649386415530873000
